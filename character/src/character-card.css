@@ -1,0 +1,41 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    border: 1px solid hsl(0, 1%, 18%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 1%, 42%, 0.521);
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display:inline-block;
+}
+
+.cards .card-image{
+    
+    width: 100%;
+    height: auto;
+    border: 2px solid hsla(60, 3%, 38%, 0.418);
+    margin-bottom: 10px;
+    border-radius: 30px;
+    
+}
+
+.cards h2{
+    display:flex;
+    font-size: 15px;
+
+    font-family:Haettenschweiler
+}
+
+.cards p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    display:flex;
+    
+}
+
